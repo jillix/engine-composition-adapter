@@ -2,6 +2,8 @@
 
 The base composition adapter class.
 
+Use this module to create custom adapters for Engine composition.
+
 ## Installation
 
 ```sh
@@ -94,14 +96,22 @@ Removes the instance.
 - **String** `name`: The instance name.
 - **Function** `cb`: The callback function.
 
-### `remove(oldName, newName, fn)`
+### `remove(oldName, newName, cb)`
 rename
 Renames the instance.
 
 #### Params
 - **String** `oldName`: The old instance name.
 - **String** `newName`: The new instance name.
-- **Function** `fn`: The callback function.
+- **Function** `cb`: The callback function.
+
+### `upsert(name, data, cb)`
+Creates or updates the specified instance.
+
+#### Params
+- **String** `name`: The instance name.
+- **Object** `data`: The instance content.
+- **Function** `cb`: The callback function.
 
 ## How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
@@ -113,7 +123,7 @@ If you are using this library in one of your projects, add it in this list. :spa
 
 [MIT][license] © [jillix][website]
 
-[license]: http://showalicense.com/?fullname=jillix%20%3Ccontact%40jillix.com%3E%20(http%3A%2F%2Fjillix.com)&year=#license-mit
+[license]: http://showalicense.com/?fullname=jillix%20%3Ccontact%40jillix.com%3E%20(http%3A%2F%2Fjillix.com)&year=2015#license-mit
 [website]: http://jillix.com
 [contributing]: /CONTRIBUTING.md
 [docs]: /DOCUMENTATION.md
