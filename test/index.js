@@ -13,6 +13,7 @@ tester.describe("run all the adapter functions", test => {
                 args.push(err => {
                     test.expect(err).toBeAn(Error);
                     test.expect(err.code).toBe("METHOD_NOT_IMPLEMENTED");
+                    test.expect(err.message).toBe(`Method ${name} not implement. Override the ${name} method in your adapter to implement this.`);
                     cb();
                 });
                 crud[name].apply(crud, args);
