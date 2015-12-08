@@ -31,5 +31,8 @@
   },
   "blah": {
     "description": "Use this module to create custom adapters for Engine composition."
+  },
+  "devDependencies": {
+    "tester": "^1.2.0"
   }
 }
