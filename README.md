@@ -113,6 +113,21 @@ Creates or updates the specified instance.
 - **Object** `data`: The instance content.
 - **Function** `cb`: The callback function.
 
+### `readFile(path, cb)`
+Reads a file from app folder.
+
+#### Params
+- **String** `path`: The file path (relative to the app directory).
+- **Function** `cb`: The callback function.
+
+### `readFile(name, content, cb)`
+Writes a file from app folder.
+
+#### Params
+- **String** `name`: The file path (relative to the app directory).
+- **String** `content`: The content to write in the file.
+- **Function** `cb`: The callback function.
+
 ## How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
