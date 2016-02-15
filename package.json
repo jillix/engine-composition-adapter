@@ -1,6 +1,6 @@
 {
   "name": "engine-composition-adapter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The base composition adapter class.",
   "main": "lib/index.js",
   "directories": {

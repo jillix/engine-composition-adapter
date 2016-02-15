@@ -1,6 +1,6 @@
-# engine-composition-adapter
+# engine-composition-adapter [![Version](https://img.shields.io/npm/v/engine-composition-adapter.svg)](https://www.npmjs.com/package/engine-composition-adapter) [![Downloads](https://img.shields.io/npm/dt/engine-composition-adapter.svg)](https://www.npmjs.com/package/engine-composition-adapter)
 
-The base composition adapter class.
+> The base composition adapter class.
 
 Use this module to create custom adapters for Engine composition.
 
@@ -133,6 +133,8 @@ Have an idea? Found a bug? See [how to contribute][contributing].
 
 ## Where is this library used?
 If you are using this library in one of your projects, add it in this list. :sparkles:
+
+ - [`engine-composition-crud`](https://github.com/jillix/engine-composition-crud#readme) by jillix
 
 ## License
 
